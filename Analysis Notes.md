@@ -62,21 +62,21 @@ being evenly distributed over time.
 
 ## Hypothesis Review
 
-### H1 — Higher-value transactions are more likely to be associated with fraud
+### 1 — Higher-value transactions are more likely to be associated with fraud
 
 Not supported by this dataset.
 
 Fraud-labelled transactions were concentrated in the lowest-value transaction
 band and had a substantially lower average value than non-fraud transactions.
 
-### H2 — Certain transaction behaviours may be associated with fraud
+### 2 — Certain transaction behaviours may be associated with fraud
 
 Partially investigated.
 
 The dataset includes transaction behaviour identifiers but deeper behavioural
 modelling was outside the scope of this project.
 
-### H3 — Certain AML alert scenarios may show different activity patterns
+### 3 — Certain AML alert scenarios may show different activity patterns
 
 Supported.
 
