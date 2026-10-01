@@ -152,11 +152,15 @@ Explores:
 ## Recommendations
 
 
-- Review the transaction patterns behind Cycle and Fan-in alerts.
+- Prioritise Cycle and Fan-in alerts for further investigation, as these were the most prominent alert patterns in the dataset. Analysts should examine the accounts, transaction paths and counterparties involved to identify repeated movement of funds or multiple payments converging into one account.
 
-- Focus on transaction amounts and time periods where fraud-labelled activity is higher.
+- Use transaction amount and time-period patterns to support alert prioritisation. Transactions occurring within the higher-risk amounts or periods identified in the analysis could be given additional weight when deciding which alerts require earlier review.
 
-- In a real bank, include investigator outcomes and non-fraud alerts so the team can measure false positives and see which AML alerts are actually effective.
+- Introduce risk-based alert scoring rather than treating every alert equally. Combining the alert type with factors such as transaction value, frequency and timing could help investigators focus first on activity with multiple risk indicators.
+
+- Improve the data captured from alert investigations. Future analysis should include both fraud and non-fraud alerts, investigator decisions and confirmed case outcomes. This would allow the bank to measure false-positive rates and determine which alert types are genuinely effective.
+
+- Regularly monitor alert performance through a dashboard. Tracking alert volumes, fraud-labelled transaction rates and changes over time would help the financial-crime team identify emerging patterns and review whether monitoring rules remain useful.
 
 
 ## Dashboard
